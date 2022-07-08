@@ -1,0 +1,46 @@
+.poke-list{
+    background: url(http://wallpapers.net/web/wallpapers/starter-pokemon-hd-wallpaper/1080x608.jpg) no-repeat;
+    width: 90%;
+    height: 90%;
+    display: inline-grid;
+    columns: 100px;
+    grid-row: auto;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto auto ; 
+    column-gap: 10px;
+    row-gap: 15px;
+
+
+}
+.header-center{
+    margin: 20px;
+    margin-bottom: 40px;
+    background-color: grey;
+
+}
+
+.poke-container{
+    
+  
+  
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+   
+
+
+}
+
+.pokemon-card{
+    
+    
+
+}
+
+.poke-name-text{
+
+
+}
+
+
