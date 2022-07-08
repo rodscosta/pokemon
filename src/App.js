@@ -10,7 +10,7 @@ import {
 
 
 import PokemonDetails from './components/pokemonDetails';
-import Home from "./components/home";
+import homePage from "./components/homePage";
 import PokemonList from "./components/pokemonList"
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <div>
         <nav>
           <ul>
-            <li>
+            <li >
               <Link to="/">HomePage</Link>
 
             </li>
@@ -41,7 +41,7 @@ function App() {
         <Routes>
           
           
-          <Route path='/' element={<Home/>} />
+          <Route path='/' element={<homePage/>} />
           <Route path='/pokemonlist' element={<PokemonList/>} />
           <Route path='/pokemondetails' element={<PokemonDetails/>} />
           

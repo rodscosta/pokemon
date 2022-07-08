@@ -1,12 +1,11 @@
 import React from "react";
-import PokemonList from "./pokemonList";
-import style from "./style.css";
+
+
 
 function PokemonDetails(props) {
   let pokeNumber = props.pokeInfo.url.split("/");
   let pokeIndex = pokeNumber[6];
-  // console.log(pokeNumber)
-  console.log(pokeIndex);
+  
 
   return (
     
