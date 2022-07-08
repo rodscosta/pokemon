@@ -1,3 +1,11 @@
+# Pokemon Challange 
+This challange was made with the pokeapi an api that get thousands of informations about pokemons. 
+The main goal was to fetch and render the data. 
+the biggest challange was to show the images that came from an other repo from github. 
+🚀to Achieve this we use a JavaScript method to split() the information from the url string. 
+
+🏭 # this project was created with create react app. to install you can follow the instructions bellow.  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
